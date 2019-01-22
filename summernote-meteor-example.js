@@ -1,6 +1,6 @@
 if (Meteor.isClient) {
   Template.editor.rendered = function () {
-    $('#summernote').summernote({
+    $('.summernote').summernote({
       height: 200
     });
   };
